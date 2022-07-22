@@ -6,7 +6,7 @@ import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { HerosRoutingModule } from './heros-routing.module';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AgregarComponent,
@@ -15,6 +15,6 @@ import { HerosRoutingModule } from './heros-routing.module';
     HomeComponent,
     ListadoComponent,
   ],
-  imports: [CommonModule, HerosRoutingModule],
+  imports: [CommonModule, HerosRoutingModule, FlexLayoutModule],
 })
 export class HeroesModule {}
